@@ -1,3 +1,5 @@
+from sqlalchemy.orm import Session
+from fastapi import Depends
 from sqlalchemy import create_engine, text
 from sqlalchemy.pool import StaticPool
 from sqlalchemy.orm import sessionmaker
